@@ -1,15 +1,4 @@
-// const title = document.querySelector('title');
-// title.
 
-// title.addEventListener('submit', e => press(e)); // remove brackets on func getRandomQuote
-
-// function getRandom(e) {  
-//   e.preventDefault()
-//   fetch('http://localhost:3000/movies/all')
-//     .then(resp => resp.text())
-//     .then(text => {document.querySelector('#QuoteArea').textContent = text})  // could use innerHTML but textContent more secure
-//     .catch(error => console.log('ERROR')) // catch errors
-// };  
 
 async function getMovies(){
     try{
